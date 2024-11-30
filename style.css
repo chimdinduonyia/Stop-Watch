@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+}
+
+h1{
+    font-family: 'Outfit', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b72e13;
+    font-size: 50px;
+}
+
+.watch-wrapper, .watch, .controls{
+    padding: 10px;
+}
+
+.watch-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.time{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b72e13;
+    box-shadow: 0px 0px 32px 6px #1b1b1b;
+    padding: 20px;
+    width: 200px;
+    aspect-ratio: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.timer-gauge{
+    padding: 7px;
+    background-color: #1d1d1d;
+    /* background: conic-gradient(#b72e13 0%, transparent 0%); */
+    /* background: conic-gradient(transparent 0%, #b72e13 0%, transparent 0%); */
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 16px 0px #b72e13; */
+}
+
+.timer-display{
+    background-color: #2b2a2a;
+    padding: 20px;
+    border-radius: 50%;
+    /* box-shadow: inset 0px 0px 16px 0px #b72e13; */
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.controls button{
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Outfit', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 16px 32px -16px #131313;
+    cursor: pointer;
+}
+
+#resetBtn{
+    background-color: #292929;
+    color: #b72e13;
+    transition: all ease 0.4s;
+}
+
+#resetBtn:hover{
+    background-color: #1d1d1d;
+    color: #b72e13;
+}
+
+#resetBtn i{
+    margin-left: 10px;
+}
+
+#startBtn{
+    background-color: rgb(9, 185, 67);    
+    color: #fff;
+    transition: all ease 0.4s;
+}
+
+#startBtn:hover{
+    background-color: rgb(9, 158, 58);
+}
+
+#resumeBtn{
+    background-color: rgb(18, 18, 170);
+    color: #fff;
+    transition: all ease 0.4s;
+}
+
+#resumeBtn:hover{
+    background-color: rgb(19, 19, 146);
+}
+
+#stopBtn{
+    background-color: #b72e13;
+    color: #fff;
+    transition: all ease 0.4s;
+}
+
+#stopBtn:hover{
+    background-color: #9e230a;
+}
+
+
+
